@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83DF6386-C548-A017-27C5-5B6F27B3AD73" name="INVENTORY">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:46:26 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PRODUCT_ID" id="7D85A8E0-655B-1891-20B8-40F18C5B6826">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:52:56 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WAREHOUSE_ID" id="5F9C6D8A-FA9D-5BF7-4508-B871BC837DB8">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:53:02 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AMOUNT_IN_STOCK" id="BE7B6F08-803E-3EC0-07A1-5678AD5FF218">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:53:10 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REORDER_POINT" id="297EEE4E-E660-EBA9-26A8-F80820AFDEDF">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:53:23 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MAX_IN_STOCK" id="B544BAC4-B8E1-0DF3-4654-4B23822728FE">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:53:48 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OUT_OF_STOCK)EXPLANATION" id="E6A1AA51-EC02-A294-E818-2B9160925A11">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:54:02 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESTOCK_DATE" id="B8B264EA-250F-330D-A266-151FF0469313">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:54:29 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53F33099-5C24-31BA-96C4-97D5E63347BF" name="WAREHOUSE">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:46:53 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="739AF900-32BB-E34F-E21E-7A9E830A58F1">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:51:22 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION_ID" id="C3815908-C45B-A0DD-65E8-87ACBEBB94B8">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:51:27 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS" id="527F8E90-799E-E84B-DFB5-6B480F93FCD7">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:51:36 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="2CB02026-1A4C-BDE1-2636-10FC65D6FAB5">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:51:42 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATE" id="CCFD027C-4433-7295-B3A0-33B0529230DC">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:51:52 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY" id="67AF4FE1-95D4-2462-F2C9-BB98D7F537B8">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:51:59 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZIP_CODE" id="1F4AAC49-86DA-790B-2AC6-6A704655360C">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:52:06 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE" id="446E5D33-4ECF-FC8C-636B-E7310AD6EA26">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:52:24 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MANAGER_ID" id="6FE89F15-9597-4015-4ADF-65B0B735DB0E">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:52:31 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

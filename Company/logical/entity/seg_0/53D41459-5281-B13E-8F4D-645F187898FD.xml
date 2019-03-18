@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53D41459-5281-B13E-8F4D-645F187898FD" name="CUSTOMER">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 21:44:55 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="597C8523-F7AC-4097-B0E7-C695194D06BC">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:01:37 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="A8D60B04-5057-A426-EF0E-3AD12B5CB18F">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:01:41 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE" id="8C632CAE-2FC1-73F7-9667-C3281008D03A">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:01:46 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDRESS" id="177A56B4-7E5A-A121-3CD3-F60B41B81A11">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:01:53 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CITY" id="73306774-844B-E2A5-9974-15092DD192D1">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:01:59 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATE" id="C7355872-F68E-6ECD-B1C2-F7B4861AEFE7">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:02:05 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY" id="FCCE74DC-A2EE-8F6C-C253-83AEDA41AD67">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:02:11 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZIP_CODE" id="8A2105B8-75E8-CACC-8248-C9CD30FAFE98">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:02:18 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREDIT_RATING" id="84A1AF85-4BA2-FF25-50F4-27B36CD04E8C">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:02:26 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALES_REP_ID" id="EF3809FA-2733-61A6-F532-1E4871FDA52B">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:02:40 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION_ID" id="29F6A126-5657-EF65-3D09-A510F45ECD06">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:02:52 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMMENTS" id="DCE3AC2F-F379-C712-479B-BDF5A38B86E2">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-11 22:03:00 UTC</createdTime>
+<ownerDesignName>Company</ownerDesignName>
+<engineerTo>
+<item key="3DAF5134-46F0-9EB4-EBEB-DB519BC972EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
